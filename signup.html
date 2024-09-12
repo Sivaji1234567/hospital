@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            .head{
+                text-align: justify;
+                float: center;
+                justify-content: center;
+                align-items: center;
+            }
+            .main{
+                flex-direction: column;
+                margin-top: 200px;
+                margin-left: 400px;  
+               background-color: rgba(0, 0, 0, 0.603);
+               box-shadow: 10px;
+               width: 50%;
+               text-align: center;
+               
+            }
+            label{
+                font-family: sans-serif;
+                font-size: medium;
+                font-weight: bold;
+            }
+            .child{
+                height: 40px;
+                padding-bottom: 5px;
+            }
+            input{
+                width: 200px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            a{
+                text-decoration: none;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                border-radius: 5px;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+        <form class="main">
+            <h1 style="text-align: center;">Signup</h1>
+            <div class="child">
+            <label>Username</label>
+            <input type="text" placeholder="enter your name"/>
+            </div>
+            <div class="child">
+            <label>Email</label>
+            <input type="text" placeholder="enter your email"/>
+            </div>
+            <div class="child">
+            <label>Password</label>
+            <input type="password" placeholder="enter the  password"/>
+            </div>
+            <div class="child">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="enter the password "/>
+            </div>
+            <div class="child">
+            <button><a href="login.html">Signup</a></button>
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
